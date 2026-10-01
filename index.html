@@ -952,7 +952,7 @@
     if (remaining() <= 0) { showSummary(); return; }
     els.statusSub.textContent = session.plays.length
       ? `Você ainda tem ${plural(remaining(), 'jogada', 'jogadas')}!`
-      : `🎁 Sua compra liberou ${plural(session.total, 'jogada', 'jogadas')} no Caça-níqueis!`;
+      : `🎁 Sua compra liberou ${plural(session.total, 'jogada', 'jogadas')} no Desafio!`;
     els.spinBtn.disabled = false;
     els.lever.disabled = false;
     els.spinBtn.innerHTML = playLabel();
